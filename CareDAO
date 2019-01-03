@@ -1,0 +1,12 @@
+package intership2.dao;
+import java.lang.Exception;
+import java.util.ArrayList;
+
+import intership2.dao.Care;
+public interface CareDAO {
+	public boolean addCare(Care care) throws Exception; 
+	public boolean delCare(String sql) throws Exception; 
+	public boolean updateCare(String sql) throws Exception;
+	public ArrayList<Care> getCare(String sql) throws Exception;
+
+}
