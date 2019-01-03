@@ -1,0 +1,18 @@
+# Care
+package intership2.dao;
+public class Care{
+public String Nickname;
+public String Storeid;
+public String GetterNickname() {
+	return this.Nickname;
+}
+public void SetterNickname(String Nickname) {
+	this.Nickname=Nickname;
+}
+public String GetterStoreid() {
+	return this.Storeid;
+}
+public void SetterStoreid(String Storeid) {
+	this.Storeid=Storeid;
+}
+}
